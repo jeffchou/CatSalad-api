@@ -1,0 +1,32 @@
+{
+    "name": "catsalad",
+    "description": "Cat Salad API Server",
+    "type": "Restful API",
+    "license": "Private",
+    "keywords": [
+        "api",
+        "framework"
+    ],
+    "config": {
+    	"process-timeout": 5000
+    },
+    "require": {
+        "php": ">=5.3.23",
+        "zendframework/zendframework": ">=2.3.2,<3.0.0",
+        "zfcampus/zf-apigility": "dev-master",
+        "zfcampus/zf-apigility-documentation": "dev-master",
+        "zfcampus/zf-development-mode": "dev-master",
+        "michaelgooden/mdg-uuid": "~1.0.0",
+        "ircmaxell/random-lib": "~1.0.0",
+        "facebook/facebook-sdk-php-zf2": "dev-master",
+        "rhumsaa/uuid": "~2.7",
+        "moontoast/math": "dev-master"
+    },
+    "require-dev": {
+        "zendframework/zftool": "dev-master",
+        "zendframework/zend-developer-tools": "dev-master",
+        "zfcampus/zf-apigility-admin": "dev-master",
+        "zfcampus/zf-apigility-welcome": "dev-master",
+        "zfcampus/zf-deploy": "dev-master"
+    }
+}
